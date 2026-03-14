@@ -19,10 +19,10 @@ export function Header() {
           <Link href="/" >Home</Link>
         </li>
         <li>
-          <Link href="/members">Projects</Link>
+          <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <Link href="/aboutus">About us</Link>
+          <Link href="/aboutus">About Us</Link>
         </li>
         <li>
           <Link href="/contact">Contact</Link>
