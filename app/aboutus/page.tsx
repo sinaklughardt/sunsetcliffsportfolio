@@ -8,8 +8,8 @@ const fjalla = Fjalla_One({
 })
 
 export default function Home() {
-  return <div>
-            <div className="h-[300px] place-content-center text-center">
+  return <div className="bg-gradient-to-r from-[#000000] to-[#002147]">
+            <div className="h-[300px] place-content-center text-center ">
             <div className={`${fjalla.className} text-5xl`}>ABOUT US</div>
         </div>
         <div className="h-[500px] bg-[#2F3B4A] place-content-center text-center">fun fun fun our story</div>

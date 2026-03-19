@@ -27,7 +27,7 @@ export function Header() {
     <div className={`${fjalla.className} antialiased flex justify-between mx-auto  md:pr-4 md:pl-4`}>
       <div className="flex items-center space-x-5" id="navbar-default">
         <Link href="/">
-        <Image src={logo} alt="logo" width={200} height={300} className="rounded h-[80px] w-[80px]"/>
+        <Image src={logo} alt="logo" width={200} height={300} className="rounded h-[100px] w-[100px]"/>
         </Link>
           </div>
 

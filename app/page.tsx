@@ -12,7 +12,7 @@ export default function Home() {
 
 
   return (
-<div>
+<div className="bg-gradient-to-r from-[#000000] to-[#002147]">
 
   <div className="md:flex h-auto justify-center py-30 bg-[#2F3B4A]">
     <div className="md:w-1/2 max-w-[600px] mx-5 justify-end flex items-center">
@@ -32,7 +32,7 @@ export default function Home() {
     </div>
 
   </div>
-  <div className="text-center max-w-[600px] mx-auto my-30">
+  <div className="text-center max-w-[600px] mx-auto my-30 ">
     <h1 className={`${fjalla.className} antialiased mt-20 text-5xl`}>DON'T WORRY BE HAPPY</h1>
 <div className="">never a single need to worry again because we will save your
   life and the lives of your grandchildren and neighbors.
