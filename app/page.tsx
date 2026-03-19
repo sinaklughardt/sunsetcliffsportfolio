@@ -14,7 +14,7 @@ export default function Home() {
   return (
 <div>
 
-  <div className="md:flex h-auto justify-center py-30 bg-gray-800">
+  <div className="md:flex h-auto justify-center py-30 bg-[#2F3B4A]">
     <div className="md:w-1/2 max-w-[600px] mx-5 justify-end flex items-center">
     <div>
     <div className={`${fjalla.className} antialiased`}>
@@ -22,8 +22,8 @@ export default function Home() {
       </div>
       <p className="text-xl">heres a short description on why you should hire us</p>
       <div className={`${fjalla.className} antialiased flex justify-start`}>
-        <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00CEC8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
-        <button className="mt-5 box-border hover:border-[#00CEC8] hover:text-[#00CEC8] rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
+        <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
+        <button className="mt-5 box-border hover:border-[#00b2b8] hover:text-[#00b2b8] rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
       </div>
       </div>
       </div>
@@ -37,11 +37,13 @@ export default function Home() {
 <div className="">never a single need to worry again because we will save your
   life and the lives of your grandchildren and neighbors.
   I hope you are readysjkdaljskjaskl</div>
-  <button className={`${fjalla.className} antialiased hover:border-[#00CEC8] hover:text-[#00CEC8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>PRESS ME</button>
+  <button className={`${fjalla.className} antialiased hover:border-[#00b2b8] hover:text-[#00b2b8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>PRESS ME</button>
 </div>
 
 {/* Portfolio */}
+<div className="bg-[#2F3B4A] py-30">
 <OurProjects />
+</div>
 
 </div>
   );

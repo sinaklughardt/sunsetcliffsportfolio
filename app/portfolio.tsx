@@ -11,11 +11,10 @@ const fjalla = Fjalla_One({
 export default function OurProjects() {
     return (
         <>
-<div className="bg-gray-800 py-30">
     <div className="lg:w-[1000px] mx-auto">
 
   <div className="lg:place-items-start text-center">
-    <p>PORTFOLIO</p>
+    <p className={`${fjalla.className} text-[#00b2b8] mb-2`}>PORTFOLIO</p>
   <div className={`${fjalla.className} antialiased justify-end text-5xl u`}>SOME OF THE WORK WE'VE DONE
     </div>
 
@@ -26,6 +25,7 @@ export default function OurProjects() {
 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center">
 
   {/* Card 1 */}
+  <Link href="https://agingsolutions.com/">
   <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
     <Image
       src={sunset}
@@ -39,11 +39,13 @@ export default function OurProjects() {
     </div>
     <div className="pb-3">Care management</div>
     <div className="text-sm underline">
-      <Link href="https://agingsolutions.com/">agingsolution.com</Link>
+      agingsolution.com
     </div>
   </div>
+  </Link>
 
   {/* Card 2 */}
+  <Link href="https://oceanbeachbrands.com/">
   <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
     <Image
       src={sunset}
@@ -57,11 +59,13 @@ export default function OurProjects() {
     </div>
     <div className="pb-3">Online Shop</div>
     <div className="text-sm underline">
-      <Link href="https://oceanbeachbrands.com/">oceanbeachbrands.com</Link>
+      oceanbeachbrands.com
     </div>
   </div>
+  </Link>
 
   {/* Card 3 */}
+  <Link href="https://sinaklughardt.com/">
   <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
     <Image
       src={sunset}
@@ -74,12 +78,10 @@ export default function OurProjects() {
       IN FLUX YOGA
     </div>
     <div className="pb-3">Personal Yoga Website</div>
-    <div className="text-sm underline">
-      <Link href="https://sinaklughardt.com/">sinaklughardt.com</Link>
-    </div>
+    <div className="text-sm underline">sinaklughardt.com</div>
   </div>
+  </Link>
 
-</div>
 </div>
 </div>
 </div>

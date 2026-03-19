@@ -16,6 +16,7 @@ export function Header() {
     const links = [
     { href: "/", label: "HOME" },
     { href: "/projects", label: "PROJECTS" },
+    { href: "/pricing", label: "PRICING" },
     { href: "/aboutus", label: "ABOUT US" },
     { href: "/contact", label: "CONTACT" },
   ]
@@ -38,8 +39,8 @@ export function Header() {
         return (
           <li
             key={link.href}
-            className={`hover:underline hover:decoration-[#00CEC8] hover:decoration-3 hover:underline-offset-[8px]
-              ${isActive ? "underline decoration-[#00CEC8] decoration-3 underline-offset-[8px]" : ""}`}
+            className={`hover:underline hover:decoration-[#00b2b8] hover:decoration-3 hover:underline-offset-[8px]
+              ${isActive ? "underline decoration-[#00b2b8] decoration-3 underline-offset-[8px]" : ""}`}
           >
             <Link href={link.href}>{link.label}</Link>
           </li>
