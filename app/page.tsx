@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "./Media/puter.png"
 import { Fjalla_One } from "next/font/google"
+import OurProjects from "./portfolio";
 
 const fjalla = Fjalla_One({
   weight: "400",
@@ -21,8 +22,8 @@ export default function Home() {
       </div>
       <p className="text-xl">heres a short description on why you should hire us</p>
       <div className={`${fjalla.className} antialiased flex justify-start`}>
-        <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-gray-300 rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
-        <button className="mt-5 box-border rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
+        <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00CEC8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
+        <button className="mt-5 box-border hover:border-[#00CEC8] hover:text-[#00CEC8] rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
       </div>
       </div>
       </div>
@@ -36,10 +37,12 @@ export default function Home() {
 <div className="">never a single need to worry again because we will save your
   life and the lives of your grandchildren and neighbors.
   I hope you are readysjkdaljskjaskl</div>
-  <button className={`${fjalla.className} antialiased mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>PRESS ME</button>
+  <button className={`${fjalla.className} antialiased hover:border-[#00CEC8] hover:text-[#00CEC8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>PRESS ME</button>
 </div>
-<div className="bg-gray-800 py-30">yayaya
-</div>
+
+{/* Portfolio */}
+<OurProjects />
+
 </div>
   );
 }

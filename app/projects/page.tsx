@@ -1,3 +1,7 @@
+import OurProjects from "../portfolio"
+
 export default function Home() {
-  return <div>Projects</div>
+  return <div>
+    <OurProjects />
+  </div>
 }
