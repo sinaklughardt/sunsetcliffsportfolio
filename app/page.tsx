@@ -17,10 +17,12 @@ export default function Home() {
   <div className="md:flex h-auto justify-center py-30 bg-[#2F3B4A]">
     <div className="md:w-1/2 max-w-[600px] mx-5 justify-end flex items-center">
     <div>
+
     <div className={`${fjalla.className} antialiased`}>
-      <h1 className="text-6xl">WE ARE CODING CODE</h1>
+      <p className="text-[#00b2b8] mb-2">Handcrafted unique websites</p>
+      <h1 className="text-6xl">CREATING WEBSITES THAT JUST WORK</h1>
       </div>
-      <p className="text-xl">heres a short description on why you should hire us</p>
+      <p className="text-xl">100% handcrafted code to make sure we fit your needs</p>
       <div className={`${fjalla.className} antialiased flex justify-start`}>
         <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
         <button className="mt-5 box-border hover:border-[#00b2b8] hover:text-[#00b2b8] rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
@@ -32,8 +34,9 @@ export default function Home() {
     </div>
 
   </div>
-  <div className="text-center max-w-[600px] mx-auto my-30 ">
-    <h1 className={`${fjalla.className} antialiased mt-20 text-5xl`}>DON'T WORRY BE HAPPY</h1>
+  <div className="text-center max-w-[600px] mx-auto my-30 mt-20 ">
+    <p className={`${fjalla.className} text-[#00b2b8] mb-2`}>PORTFOLIO</p>
+    <h1 className={`${fjalla.className} antialiased text-5xl`}>HUMANS IN A DIGITAL WORLD</h1>
 <div className="">never a single need to worry again because we will save your
   life and the lives of your grandchildren and neighbors.
   I hope you are readysjkdaljskjaskl</div>

@@ -15,7 +15,7 @@ export default function Pricing() {
             <div className={`${fjalla.className} text-5xl`}>PRICING</div>
         </div>
         <div className=" bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
-        <div className="text-white text-center pt-5 mb-15">here's a nice little explanation how our pricing works lalalala</div>
+        <div className="text-white text-center pt-5 mb-15">Please let us know if you have any questions about pricing <Link className="underline" href="/contact">here</Link></div>
 
         <div className="max-w-[1000px] w-full mx-auto px-6 mb-20 ">
         <div className="md:grid md:grid-cols-2 justify-items-center gap-4py-30">

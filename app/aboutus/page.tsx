@@ -1,6 +1,8 @@
 import { Fjalla_One } from "next/font/google"
 import sunset from "../Media/sunset.jpeg"
+import sinaprofile from "../Media/sina.jpg"
 import Image from "next/image";
+
 
 const fjalla = Fjalla_One({
   weight: "400",
@@ -8,11 +10,47 @@ const fjalla = Fjalla_One({
 })
 
 export default function Home() {
-  return <div className="bg-gradient-to-r from-[#000000] to-[#002147]">
+  return <div className="bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
             <div className="h-[300px] place-content-center text-center ">
-            <div className={`${fjalla.className} text-5xl`}>ABOUT US</div>
+            <div className={`${fjalla.className} text-5xl`}>MEET THE TEAM</div>
         </div>
-        <div className="h-[500px] bg-[#2F3B4A] place-content-center text-center">fun fun fun our story</div>
-        <div className="h-[300px] place-content-center text-center">and much more fun maybe about us individually</div>
+        <div className="h-100 text-center max-w-300 mx-auto">
+          <div className="md:grid md:grid-cols-3 md:gap-5 ">
+{/*
+            Sinas Card */}
+            <div className="mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-items-center place-self-center">
+                    <div className="flex justify-center">
+      <div className="h-60 w-60">
+              <Image src={sinaprofile} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
+              </div>
+              </div>
+              <p className="mb-5 mt-10 text-3xl">Sina Klughardt</p>
+              <p>Web Design</p>
+              </div>
+
+{/* Kyles Card */}
+            <div className="mb-5 p-5 md:mb-0 h-full text-center  rounded-lg w-80  py-5 place-items-center place-self-center">
+                    <div className="flex justify-center">
+      <div className="h-60 w-60">
+              <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
+              </div>
+              </div>
+              <p className="mb-5 mt-10 text-3xl">Kyle Clarke</p>
+              <p>Full Stack Software Engineer, Finances</p>
+              </div>
+
+{/* Lisas Card */}
+            <div className="mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-items-center place-self-center">
+                    <div className="flex justify-center">
+      <div className="h-60 w-60">
+              <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
+              </div>
+              </div>
+              <p className="mb-5 mt-10 text-3xl">Lisa Gloff</p>
+              <p>Description</p>
+              </div>
+
+          </div>
+        </div>
   </div>
 }

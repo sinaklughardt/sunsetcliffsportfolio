@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "./Header/component";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./Footer/component";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ return (
     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
       <Header />
       {children}
+      <Footer />
     </body>
   </html>
 )

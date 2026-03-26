@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Fjalla_One } from "next/font/google"
 import sunset from "./Media/sunset.jpeg"
 import Image from "next/image";
+import obb from "./Media/oceanbeachbrands.png"
+import yogawebsite from "./Media/yogawebsite.png"
+import agingsolutions from "./Media/agingsolutons.png"
 
 const fjalla = Fjalla_One({
   weight: "400",
@@ -26,13 +29,13 @@ export default function OurProjects() {
 
   {/* Card 1 */}
   <Link href="https://agingsolutions.com/">
-  <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
+  <div className="text-white py-10 text-center rounded-lg w-full h-75 w-full">
     <Image
-      src={sunset}
+      src={agingsolutions}
       alt="aging solutions"
       width={800}
       height={200}
-      className="w-full h-[300px] object-cover mb-3"
+      className="w-full h-full object-cover mb-3"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2`}>
       AGING SOLUTIONS INC.
@@ -46,13 +49,13 @@ export default function OurProjects() {
 
   {/* Card 2 */}
   <Link href="https://oceanbeachbrands.com/">
-  <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
+  <div className="text-white py-10 text-center rounded-lg h-75 w-full">
     <Image
-      src={sunset}
+      src={obb}
       alt="project image"
       width={800}
       height={200}
-      className="w-full h-[300px] object-cover mb-3"
+      className="w-full h-full object-cover mb-3"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2`}>
       OCEAN BEACH BRANDS
@@ -66,13 +69,13 @@ export default function OurProjects() {
 
   {/* Card 3 */}
   <Link href="https://sinaklughardt.com/">
-  <div className="text-white py-10 text-center rounded-lg w-full max-w-[350px]">
+  <div className="text-white py-10 text-center rounded-lg w-full h-75">
     <Image
-      src={sunset}
+      src={yogawebsite}
       alt="project image"
       width={800}
       height={200}
-      className="w-full h-[300px] object-cover mb-3"
+      className="w-full h-full object-cover mb-3"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2`}>
       IN FLUX YOGA
