@@ -14,7 +14,7 @@ const fjalla = Fjalla_One({
 export default function OurProjects() {
     return (
         <>
-    <div className="lg:w-[1000px] mx-auto">
+    <div className="lg:w-[1000px] mx-auto pb-20">
 
   <div className="lg:place-items-start text-center">
     <p className={`${fjalla.className} text-[#00b2b8] mb-2`}>PORTFOLIO</p>

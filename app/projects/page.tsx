@@ -13,7 +13,7 @@ export default function Home() {
             <div className="h-100 place-content-center text-center">
             <div className={`${fjalla.className} text-5xl`}>OUR PROJECTS</div>
         </div>
-      <div className="py-10 bg-[#2F3B4A]">
+      <div className="py-10 bg-[#2F3B4A] pb-20">
     <OurProjects />
     </div>
 
