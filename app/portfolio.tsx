@@ -28,7 +28,7 @@ export default function OurProjects() {
 
   {/* Card 1 */}
   <Link href="https://agingsolutions.com/">
-  <div className="text-white py-10 text-center rounded-lg  h-90 lg:w-full mb-10 lg:mb-0">
+  <div className="text-white py-10 text-center rounded-lg  h-75 max-w-75 mb-10 lg:mb-0">
     <Image
       src={agingsolutions}
       alt="aging solutions"
@@ -48,7 +48,7 @@ export default function OurProjects() {
 
   {/* Card 2 */}
   <Link href="https://oceanbeachbrands.com/">
-  <div className="text-white py-10 text-center rounded-lg h-75 w-full mb-10 lg:mb-0">
+  <div className="text-white py-10 text-center rounded-lg h-75 max-w-75 mb-10 lg:mb-0">
     <Image
       src={obb}
       alt="project image"
@@ -68,7 +68,7 @@ export default function OurProjects() {
 
   {/* Card 3 */}
   <Link href="https://sinaklughardt.com/">
-  <div className="text-white py-10 text-center rounded-lg w-full h-75 mb-10 lg:mb-0">
+  <div className="text-white py-10 text-center rounded-lg max-w-75 h-75 mb-10 lg:mb-0">
     <Image
       src={yogawebsite}
       alt="project image"
