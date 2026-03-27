@@ -15,7 +15,7 @@ export default function Home() {
   return (
 <div className="bg-gradient-to-r from-[#000000] to-[#002147]">
 
-  <div className="md:flex h-auto justify-center py-30 bg-[#2F3B4A]">
+  <div className="md:flex h-auto justify-center pt-15 pb-10 md:py-30 bg-[#2F3B4A]">
     <div className="md:w-1/2 max-w-[600px] mx-5 justify-end flex items-center">
     <div>
 
