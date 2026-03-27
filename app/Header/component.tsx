@@ -33,7 +33,7 @@ export function Header() {
 
 
 
-    <ul className="flex items-center space-x-5 ml-auto mask-t-from-50% ">
+    <ul className="text-xs md:text-base flex items-center space-x-5 ml-auto mask-t-from-50% ">
       {links.map((link) => {
         const isActive = pathname === link.href
         return (
