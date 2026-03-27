@@ -44,7 +44,7 @@ export default function Pricing() {
                 <p>✔ +$200 to add a blog</p>
                 <p>✔ Lifetime Updates</p>
                 </div>
-                <div className={`${fjalla.className} text-white text-5xl`}>$185<p className="text-sm text-gray-300">Per Month</p></div>
+                <div className={`${fjalla.className} text-white text-5xl`}>$175<p className="text-sm text-gray-300">Per Month</p></div>
                    <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded `}>GET STARTED</button>
             </div>
             </div>
