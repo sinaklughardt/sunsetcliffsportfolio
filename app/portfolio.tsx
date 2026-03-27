@@ -24,16 +24,16 @@ export default function OurProjects() {
 
     </div>
   <div className="place-items-center">
-<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center">
+<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-items-center mx-10">
 
   {/* Card 1 */}
   <Link href="https://agingsolutions.com/">
-  <div className="text-white py-10 text-center rounded-lg w-full h-75 w-full mb-10 lg:mb-0">
+  <div className="text-white py-10 text-center rounded-lg  h-90 lg:w-full mb-10 lg:mb-0">
     <Image
       src={agingsolutions}
       alt="aging solutions"
       width={800}
-      height={200}
+      height={300}
       className="w-full h-full object-cover mb-3"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2`}>

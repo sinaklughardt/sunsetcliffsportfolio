@@ -29,14 +29,15 @@ export default function Home() {
     </div>
 
     </div>
-            <div className="max-w-300 h-60 mt-10 mx-auto pl-20 place-content-center">
+            <div className="mb-20 mt-40 mx-auto text-center">
             <div className={`${fjalla.className} text-5xl`}>MEET THE TEAM</div>
         </div>
-        <div className="text-center max-w-300 mx-auto">
+        <div className="text-center max-w-300 mx-auto ">
           <div className="md:grid md:grid-cols-3 md:gap-5 ">
+
 {/*
             Sinas Card */}
-            <div className="mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center">
+            <div className="mx-auto mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center ">
                     <div className="flex justify-center">
       <div className="h-60 w-60">
               <Image src={sinaprofile} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
@@ -47,7 +48,7 @@ export default function Home() {
               </div>
 
 {/* Kyles Card */}
-            <div className="mb-5 p-5 md:mb-0 h-full text-center  rounded-lg w-80  py-5  place-self-center">
+            <div className="mx-auto mb-5 p-5 md:mb-0 h-full text-center  rounded-lg w-80  py-5  place-self-center">
                     <div className="flex justify-center">
       <div className="h-60 w-60">
               <Image src={kyleprofile} alt="kyle profile pic" className="h-full w-full object-cover rounded-full"/>
@@ -58,7 +59,7 @@ export default function Home() {
               </div>
 
 {/* Lisas Card */}
-            <div className="mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center">
+            <div className="mx-auto mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center">
                     <div className="flex justify-center">
       <div className="h-60 w-60">
               <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
