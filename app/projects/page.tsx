@@ -22,8 +22,9 @@ export default function Home() {
       <div className="md:w-3/4 text-5xl text-center md:text-left">READY TO GET THE SITE YOU ALWAYS WANTED?</div>
       <div className="md:w-1/4">
         <Link href="/contact">
+        <div className="flex justify-center">
       <button className="mt-5 md:mt-0 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-5 py-2.5 border-rounded">GET STARTED</button>
-      </Link></div>
+      </div></Link></div>
       </div>
 </div>
        </div>

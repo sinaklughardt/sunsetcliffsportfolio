@@ -59,7 +59,7 @@ export default function Home() {
       <div className="md:w-1/4">
         <Link href="/contact">
         <div className="flex justify-center">
-      <button className=" box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-5 py-2.5 border-rounded">GET IN CONTACT</button>
+      <button className="mt-5 md:mt-0 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-5 py-2.5 border-rounded">GET IN CONTACT</button>
       </div></Link></div>
       </div>
 </div>
