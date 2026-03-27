@@ -39,7 +39,7 @@ export default function Pricing() {
                 <div className="text-lg leading-10 mb-10">
                 <p>✔ Design and Developement</p>
                 <p>✔ Includes Hosting</p>
-                <p>✔ Lifetime Updates</p>
+                <p>✔ Includes Edits</p>
                 <p>✔ +$120 fee Per Page After 5</p>
                 <p>✔ +$200 to add a blog</p>
                 <p>✔ Lifetime Updates</p>

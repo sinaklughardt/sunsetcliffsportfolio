@@ -25,8 +25,12 @@ export default function Home() {
       </div>
       <p className="text-xl">100% handcrafted and designed to the needs of your business</p>
       <div className={`${fjalla.className} antialiased flex justify-start`}>
+        <Link href="/contact">
         <button className="mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded">GET STARTED</button>
+        </Link>
+        <Link href="/aboutus">
         <button className="mt-5 box-border hover:border-[#00b2b8] hover:text-[#00b2b8] rounded-full hover:bg-gray-900 border rounded-base shadow-xs px-4 py-2.5  border-rounded">ABOUT US</button>
+        </Link>
       </div>
       </div>
       </div>
@@ -39,7 +43,9 @@ export default function Home() {
     <p className={`${fjalla.className} text-[#00b2b8] mb-2`}>OUR SERVICES</p>
     <h1 className={`${fjalla.className} antialiased text-5xl`}>LET US HANDLE YOUR DIGITAL STRATEGY</h1>
 <div className="">We'll take care of online so you can stay focused on running your business</div>
+<Link href="/contact">
   <button className={`${fjalla.className} antialiased hover:border-[#00b2b8] hover:text-[#00b2b8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
+</Link>
 </div>
 
 {/* Portfolio */}
