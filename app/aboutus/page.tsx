@@ -41,7 +41,7 @@ export default function Home() {
               <Image src={sinaprofile} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
-              <p className="mb-5 mt-10 text-3xl">Sina Klughardt</p>
+              <p className="mb-5 mt-10 text-3xl">Sina Klughardt<p className="text-base text-gray-300">they/them</p></p>
               <p>Web Design, Full Stack Web Developer</p>
               </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
               <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
-              <p className="mb-5 mt-10 text-3xl">Kyle Clarke</p>
+              <p className="mb-5 mt-10 text-3xl">Kyle Clarke <p className="text-base text-gray-300">he/him</p></p>
               <p>Full Stack Web Developer</p>
               </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
               <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
-              <p className="mb-5 mt-10 text-3xl">Lisa Gloff</p>
+              <p className="mb-5 mt-10 text-3xl">Lisa Gloff <p className="text-base text-gray-300">she/her</p></p>
               <p>Client Outreach & Developement</p>
               </div>
 
