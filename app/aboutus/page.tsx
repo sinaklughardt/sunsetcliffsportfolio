@@ -11,6 +11,15 @@ const fjalla = Fjalla_One({
 
 export default function Home() {
   return <div className="bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
+    <div className="md:flex h-auto justify-left py-30">
+    <div className="md:w-1/4 max-w-[1200px] mx-10 justify-end flex">
+    We're a family business based in San Diego. We started Sunset Cliffs Digital Solutions out of a passion for working with small businesses and helping them grow. We do that by designing eye-catching, performant websites engineered to establish a strong online presence and brand for any business.
+    <br /><br />
+    Whatever the needs of your business or organization, our team brings a diverse skillset to ensure your website becomes a key pillar of your strategy.
+    <br /><br />
+    Between us, we have over a decade of experience delivering high-performing digital solutions with the latest technologies for companies of all sizes, from big tech companies like Amazon and Twitch to small businesses.
+    </div>
+    </div>
             <div className="h-[300px] place-content-center text-center ">
             <div className={`${fjalla.className} text-5xl`}>MEET THE TEAM</div>
         </div>
