@@ -1,6 +1,7 @@
 import { Fjalla_One } from "next/font/google"
 import sunset from "../Media/sunset.jpeg"
 import sinaprofile from "../Media/sina.jpg"
+import kyleprofile from "../Media/forest_profile_pic.jpg"
 import family from "../Media/family.png"
 import Image from "next/image";
 
@@ -49,7 +50,7 @@ export default function Home() {
             <div className="mb-5 p-5 md:mb-0 h-full text-center  rounded-lg w-80  py-5  place-self-center">
                     <div className="flex justify-center">
       <div className="h-60 w-60">
-              <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
+              <Image src={kyleprofile} alt="kyle profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
               <p className="mb-5 mt-10 text-3xl">Kyle Clarke <p className="text-base text-gray-300">he/him</p></p>
