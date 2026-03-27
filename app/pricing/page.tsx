@@ -19,7 +19,7 @@ export default function Pricing() {
 
         <div className="max-w-[1000px] w-full mx-auto px-6 mb-20 ">
         <div className="md:grid md:grid-cols-2 justify-items-center gap-4py-30">
-            <div className="mb-5 md:mb-0 w-[300px] min-h-[500px] text-center py-10 border border-sky-900 rounded-lg">
+            <div className="mx-auto mb-5 md:mb-0 w-[300px] min-h-[500px] text-center py-10 border border-sky-900 rounded-lg">
                 <h3 className={`${fjalla.className} text-3xl pb-3 `}>LUMP SUM</h3>
                 <div className="text-lg leading-10 mb-10">
                 <p>✔ Design and Developement</p>
@@ -35,7 +35,8 @@ export default function Pricing() {
                 <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
             </Link>
             </div>
-            <div className="border border-white min-h-[500px] shadow-lg shadow-white/50 rounded-lg w-[300px]">
+
+            <div className="border border-white min-h-[500px] mx-auto shadow-lg shadow-white/50 rounded-lg w-[300px]">
             <div className="py-10 text-center">
                 <h3 className={`${fjalla.className} text-3xl pb-3`}>MONTHLY</h3>
                 <div className="text-lg leading-10 mb-10">
