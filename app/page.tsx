@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "./Media/puter.png"
 import { Fjalla_One } from "next/font/google"
 import OurProjects from "./portfolio";
+import Link from "next/link";
 
 const fjalla = Fjalla_One({
   weight: "400",
@@ -38,13 +39,24 @@ export default function Home() {
     <p className={`${fjalla.className} text-[#00b2b8] mb-2`}>OUR SERVICES</p>
     <h1 className={`${fjalla.className} antialiased text-5xl`}>LET US HANDLE YOUR DIGITAL STRATEGY</h1>
 <div className="">We'll take care of online so you can stay focused on running your business</div>
-  <button className={`${fjalla.className} antialiased hover:border-[#00b2b8] hover:text-[#00b2b8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>PRESS ME</button>
+  <button className={`${fjalla.className} antialiased hover:border-[#00b2b8] hover:text-[#00b2b8] mt-5 box-border rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
 </div>
 
 {/* Portfolio */}
 <div className="bg-[#2F3B4A] py-30">
 <OurProjects />
 </div>
+            <div className={`${fjalla.className} h-80 place-content-center`}>
+      <div className="lg:w-300 mx-4 lg:mx-auto justify-items-center">
+      <div className="md:flex justify-items-center ">
+      <div className="md:w-3/4 text-5xl text-center md:text-left">READY TO GET THE SITE YOU ALWAYS WANTED?</div>
+      <div className="md:w-1/4">
+        <Link href="/contact">
+      <button className="mt-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-5 py-2.5 border-rounded">GET IN CONTACT</button>
+      </Link></div>
+      </div>
+</div>
+       </div>
 
 </div>
   );

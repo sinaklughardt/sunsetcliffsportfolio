@@ -22,33 +22,35 @@ export default function Pricing() {
             <div className="mb-5 md:mb-0 w-[300px] min-h-[500px] text-center py-10 border border-sky-900 rounded-lg">
                 <h3 className={`${fjalla.className} text-3xl pb-3 `}>LUMP SUM</h3>
                 <div className="text-lg leading-10 mb-10">
-                <p>✔ here</p>
-                <p>✔ are</p>
-                <p>✔ the</p>
-                <p>✔ perks</p>
-                <p>✖ and</p>
-                <p>✖ downsides</p>
+                <p>✔ Design and Developement</p>
+                <p>✔ $25/mo Hosting</p>
+                <p>✔ +$120 fee Per Page After 5</p>
+                <p>✔ $60/mo Edits Add-on</p>
+                <p>✔ +$200 to add a blog</p>
+                <p className="text-gray-400">✖ Lifetime Updates</p>
+
         </div>
- <div className={`${fjalla.className} text-white text-5xl`}>$3500</div>
+ <div className={`${fjalla.className} text-white text-5xl`}>$3500 <p className="text-sm text-gray-300">+$25/mo Hosting</p></div>
                 <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
             </div>
             <div className="border border-white min-h-[500px] shadow-lg shadow-white/50 rounded-lg w-[300px]">
             <div className="py-10 text-center">
                 <h3 className={`${fjalla.className} text-3xl pb-3`}>MONTHLY</h3>
                 <div className="text-lg leading-10 mb-10">
-                <p>✔ here</p>
-                <p>✔ are</p>
-                <p>✔ the</p>
-                <p>✔ perks</p>
-                <p>✖ and</p>
-                <p>✖ downsides</p>
+                <p>✔ Design and Developement</p>
+                <p>✔ Includes Hosting</p>
+                <p>✔ Lifetime Updates</p>
+                <p>✔ +$120 fee Per Page After 5</p>
+                <p>✔ +$200 to add a blog</p>
+                <p>✔ Lifetime Updates</p>
                 </div>
-                <div className={`${fjalla.className} text-white text-5xl`}>$150</div>
+                <div className={`${fjalla.className} text-white text-5xl`}>$185<p className="text-sm text-gray-300">Per Month</p></div>
                    <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded `}>GET STARTED</button>
             </div>
             </div>
 </div>
         </div>
+
         </div>
         </>
     )

@@ -1,6 +1,7 @@
 import { Fjalla_One } from "next/font/google"
 import sunset from "../Media/sunset.jpeg"
 import sinaprofile from "../Media/sina.jpg"
+import family from "../Media/family.png"
 import Image from "next/image";
 
 
@@ -11,19 +12,26 @@ const fjalla = Fjalla_One({
 
 export default function Home() {
   return <div className="bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
-    <div className="md:flex h-auto justify-left py-30">
-    <div className="md:w-1/4 max-w-[1200px] mx-10 justify-end flex">
+    <div className={`${fjalla.className} text-5xl text-center pt-30`}>ABOUT US</div>
+    <div className="max-w-300 h-auto text-left pt-30 lg:grid lg:grid-cols-2 mx-auto">
+      <div className="flex justify-center">
+        <div className="h-80 w-100 lg:h-100 lg:w-130 mx-4 ">
+    <Image src={family} alt="family" />
+    </div>
+    </div>
+    <div className="max-w-130 mx-auto justify-end text-center px-4 md:px-0 lg:text-start flex">
     We're a family business based in San Diego. We started Sunset Cliffs Digital Solutions out of a passion for working with small businesses and helping them grow. We do that by designing eye-catching, performant websites engineered to establish a strong online presence and brand for any business.
     <br /><br />
     Whatever the needs of your business or organization, our team brings a diverse skillset to ensure your website becomes a key pillar of your strategy.
     <br /><br />
     Between us, we have over a decade of experience delivering high-performing digital solutions with the latest technologies for companies of all sizes, from big tech companies like Amazon and Twitch to small businesses.
     </div>
+
     </div>
-            <div className="h-[300px] place-content-center text-center ">
+            <div className="max-w-300 h-60 mt-10 mx-auto pl-20 place-content-center">
             <div className={`${fjalla.className} text-5xl`}>MEET THE TEAM</div>
         </div>
-        <div className="h-100 text-center max-w-300 mx-auto">
+        <div className="text-center max-w-300 mx-auto">
           <div className="md:grid md:grid-cols-3 md:gap-5 ">
 {/*
             Sinas Card */}
@@ -58,7 +66,6 @@ export default function Home() {
               <p className="mb-5 mt-10 text-3xl">Lisa Gloff</p>
               <p>Client Outreach & Developement</p>
               </div>
-              <div className="border-4 border-red-500"></div>
 
           </div>
         </div>
