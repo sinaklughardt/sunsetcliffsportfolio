@@ -20,7 +20,7 @@ export default function Home() {
     <Image src={family} alt="family" />
     </div>
     </div>
-    <div className="max-w-130 mx-auto justify-end text-center px-4 md:px-0 text-start flex text-base/7.5">
+    <div className="max-w-130 mx-auto px-4 md:px-2.5 text-start flex text-base/7.5">
     We're a family business based in San Diego. We started Sunset Cliffs Digital Solutions out of a passion for working with small businesses and helping them grow. We do that by designing eye-catching, performant websites engineered to establish a strong online presence and brand for any business.
     <br /><br />
     Whatever the needs of your business or organization, our team brings a diverse skillset to ensure your website becomes a key pillar of your strategy.
