@@ -14,11 +14,11 @@ export default function Pricing() {
         <div className="h-[300px] place-content-center text-center bg-[#2F3B4A] ">
             <div className={`${fjalla.className} text-5xl`}>PRICING</div>
         </div>
-        <div className=" bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
-        <div className="text-white text-center pt-5 mb-15">Please let us know if you have any questions about pricing <Link className="underline" href="/contact">here</Link></div>
+        <div className=" bg-gradient-to-r from-[#000000] to-[#002147] pb-40 pt-10">
+        <div className="text-white text-center mb-15">Please let us know if you have any questions about pricing <Link className="underline" href="/contact">here</Link></div>
 
-        <div className="max-w-[1000px] w-full mx-auto px-6 mb-20 ">
-        <div className="md:grid md:grid-cols-2 justify-items-center gap-4py-30">
+        <div className="max-w-[1000px] w-full mx-auto px-7.5 ">
+        <div className="md:grid md:grid-cols-2 justify-items-center ">
             <div className="mx-auto mb-5 md:mb-0 w-[300px] min-h-[500px] text-center py-10 border border-sky-900 rounded-lg">
                 <h3 className={`${fjalla.className} text-3xl pb-3 `}>LUMP SUM</h3>
                 <div className="text-lg leading-10 mb-10">
@@ -32,7 +32,7 @@ export default function Pricing() {
         </div>
  <div className={`${fjalla.className} text-white text-5xl`}>$3500 <p className="text-sm text-gray-300">+$25/mo Hosting</p></div>
                 <Link href="/contact">
-                <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
+                <button className={`${fjalla.className} mt-2.5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}>GET STARTED</button>
             </Link>
             </div>
 
@@ -49,7 +49,7 @@ export default function Pricing() {
                 </div>
                 <div className={`${fjalla.className} text-white text-5xl`}>$175<p className="text-sm text-gray-300">Per Month</p></div>
                 <Link href="/contact">
-                   <button className={`${fjalla.className} mt-2 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded `}>GET STARTED</button>
+                   <button className={`${fjalla.className} mt-2.5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded `}>GET STARTED</button>
             </Link></div>
             </div>
 </div>
