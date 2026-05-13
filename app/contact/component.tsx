@@ -53,7 +53,7 @@ export default function ContactMe() {
 
     return (
         <>
- <div className="md:flex justify-center text-[#4f7b86] border-b pb-20 pt-10">
+ <div className="md:flex justify-center text-[#4f7b86] pb-20 pt-10">
 
     <div className="md:m-5">
     <form onSubmit={sendEmail} className="px-6  md:pb-24 sm:pb-32 lg:px-8 rounded-lg shadow shadow-lg  m-4 py-4  md:m-0 md:py-0">

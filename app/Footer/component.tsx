@@ -13,7 +13,7 @@ export function Footer() {
             <p  className={`${fjalla.className} antialiased text-lg mb-1.25`}>CONTACT INFORMATION</p>
             <p >✉️ hello@sunsetcliffsweb.com</p>
             <p className="pb-2.5">📞 619 786 1789</p>
-            <p className="text-end">Sunset Cliffs Web Design © Copyright 2026</p>
+            <p className="md:text-end">Sunset Cliffs Web Design © Copyright 2026</p>
 </div>
 
 </div>
