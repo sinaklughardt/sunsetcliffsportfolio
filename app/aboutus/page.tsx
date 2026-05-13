@@ -1,4 +1,4 @@
-import { Fjalla_One } from "next/font/google"
+import { Murecho } from "next/font/google"
 import sunset from "../Media/sunset.jpeg"
 import sinaprofile from "../Media/sina.jpg"
 import kyleprofile from "../Media/forest_profile_pic.jpg"
@@ -6,13 +6,13 @@ import family from "../Media/family.png"
 import Image from "next/image";
 
 
-const fjalla = Fjalla_One({
+const fjalla = Murecho({
   weight: "400",
   subsets: ["latin"],
 })
 
 export default function Home() {
-  return <div className="bg-gradient-to-r from-[#000000] to-[#002147] pb-40">
+  return <div className="bg-gradient-to-r bg-[#fcfcff] text-[#4f7b86] pb-40">
     <div className={`${fjalla.className} text-5xl text-center pt-20 md:pt-30`}>ABOUT US</div>
     <div className="max-w-300 h-auto text-left lg:pt-20 pt-10 lg:grid lg:grid-cols-2 mx-auto">
       <div className="flex justify-center">
@@ -29,11 +29,13 @@ export default function Home() {
     </div>
 
     </div>
-            <div className="mb-20 mt-30 lg:mt-40 mx-auto text-center">
-            <div className={`${fjalla.className} text-5xl`}>MEET THE TEAM</div>
+
+    <div className="bg-[#4f7b86] text-[#fcfcff]  max-w-300 mx-auto pb-10">
+            <div className="mb-10 mt-30 lg:mt-40 mx-auto text-center">
+            <div className={`${fjalla.className} text-5xl pt-10`}>MEET THE TEAM</div>
         </div>
-        <div className="text-center max-w-300 mx-auto ">
-          <div className="md:grid md:grid-cols-3 md:gap-5 ">
+        <div className="text-center bg-[#4f7b86] text-[#fcfcff] ">
+          <div className="md:grid md:grid-cols-2 md:gap-5 ">
 
 {/*
             Sinas Card */}
@@ -43,8 +45,9 @@ export default function Home() {
               <Image src={sinaprofile} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
-              <p className="mb-2.5 mt-10 text-3xl">Sina Klughardt<p className="text-base text-gray-300">they/them</p></p>
-              <p>Web Design, Full Stack Web Developer</p>
+              <div className="mb-2.5 mt-10">
+              <p className="text-3xl">Sina Klughardt</p><p className="text-base text-gray-300">they/them</p>
+             </div> <p>Web Design, Full Stack Web Developer</p>
               </div>
 
 {/* Kyles Card */}
@@ -54,12 +57,13 @@ export default function Home() {
               <Image src={kyleprofile} alt="kyle profile pic" className="h-full w-full object-cover rounded-full"/>
               </div>
               </div>
-              <p className="mb-2.5 mt-10 text-3xl">Kyle Clarke <p className="text-base text-gray-300">he/him</p></p>
-              <p>Full Stack Web Developer</p>
+              <div className="mb-2.5 mt-10">
+              <p className="text-3xl">Kyle Clarke</p> <p className="text-base text-gray-300">he/him</p>
+             </div> <p>Full Stack Web Developer</p>
               </div>
 
 {/* Lisas Card */}
-            <div className="mx-auto mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center">
+            {/* <div className="mx-auto mb-5 md:mb-0 h-full text-center rounded-lg w-80  py-5 place-self-center">
                     <div className="flex justify-center">
       <div className="h-60 w-60">
               <Image src={sunset} alt="sina profile pic" className="h-full w-full object-cover rounded-full"/>
@@ -67,9 +71,9 @@ export default function Home() {
               </div>
               <p className="mb-2.5 mt-10 text-3xl">Lisa Gloff <p className="text-base text-gray-300">she/her</p></p>
               <p>Client Outreach & Developement</p>
-              </div>
+              </div> */}
 
           </div>
-        </div>
+        </div></div>
   </div>
 }

@@ -1,10 +1,10 @@
 "use client"
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Fjalla_One } from "next/font/google"
+import { Murecho } from "next/font/google"
 
 
-  const fjalla = Fjalla_One({
+  const fjalla = Murecho({
   weight: "400",
   subsets: ["latin"],
 })
@@ -53,12 +53,12 @@ export default function ContactMe() {
 
     return (
         <>
- <div className="md:flex justify-center text-white pb-20 pt-10">
+ <div className="md:flex justify-center text-[#4f7b86] border-b pb-20 pt-10">
 
     <div className="md:m-5">
-    <form onSubmit={sendEmail} className="px-6 md:pb-24 sm:pb-32 lg:px-8 rounded-lg border-gray-200 m-4 py-4 shadow md:m-0 md:py-0">
+    <form onSubmit={sendEmail} className="px-6  md:pb-24 sm:pb-32 lg:px-8 rounded-lg shadow shadow-lg  m-4 py-4  md:m-0 md:py-0">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-              <div className="block text-sm/6 inline-flex">
+              <div className="block text-sm/6 inline-flex pt-10">
                 <p className="font-semibold ">Name</p>
                 <p className="ml-2 text-gray-300">(required)</p>
 
@@ -152,9 +152,9 @@ export default function ContactMe() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className={`${fjalla.className} antialiased mt-5 mr-5 box-border bg-gray-200 text-gray-900 hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}
+                className={`${fjalla.className} font-bold mt-5 mr-5 box-border bg-[#4f7b86] text-white hover:bg-[#00b2b8] rounded-full border rounded-base shadow-xs px-4 py-2.5 border-rounded`}
               >
-                Send message
+                SEND MESSAGE
               </button>
             </div>
           </div>

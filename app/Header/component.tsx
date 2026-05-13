@@ -2,10 +2,10 @@
 import Link from 'next/link'
 import logo from "../Media/Sunset cliffs.png"
 import Image from 'next/image'
-import { Fjalla_One } from "next/font/google"
+import { Murecho } from "next/font/google"
 import { usePathname } from 'next/navigation'
 
-const fjalla = Fjalla_One({
+const fjalla = Murecho({
   weight: "400",
   subsets: ["latin"],
 })
@@ -24,7 +24,7 @@ export function Header() {
 
   return (
     <>
-    <div className={`${fjalla.className} antialiased flex justify-between mx-auto pr-2.5 md:pr-5 md:pl-5`}>
+    <div className={`${fjalla.className}  bg-gradient-to-r from-[#2CB3B8]/90 to-[#4f7b86] border-b border-[#e6e4df]/50 flex justify-between mx-auto pr-2.5 md:pr-5 md:pl-5`}>
       <div className="flex items-center space-x-5" id="navbar-default">
         <Link href="/">
         <Image src={logo} alt="logo" width={200} height={300} className="rounded h-[80px] w-[80px] md:h-[100px] md:w-[100px]"/>

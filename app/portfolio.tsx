@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Fjalla_One } from "next/font/google"
+import { Murecho } from "next/font/google"
 import sunset from "./Media/sunset.jpeg"
 import Image from "next/image";
 import obb from "./Media/oceanbeachbrands.png"
 import yogawebsite from "./Media/yogawebsite.png"
 import agingsolutions from "./Media/agingsolutons.png"
 
-const fjalla = Fjalla_One({
+const fjalla = Murecho({
   weight: "400",
   subsets: ["latin"],
 })
@@ -14,7 +14,7 @@ const fjalla = Fjalla_One({
 export default function OurProjects() {
     return (
         <>
-    <div className="lg:w-[1000px] mx-auto pb-20 ">
+    <div className="lg:w-[1000px] mx-auto  ">
 
   <div className="lg:place-items-start text-center">
     <p className={`${fjalla.className} text-[#00b2b8] mb-2.5`}>PORTFOLIO</p>
@@ -24,17 +24,17 @@ export default function OurProjects() {
 
     </div>
   <div className="place-items-center">
-<div className="grid grid-cols-1 lg:grid-cols-3 gap-7.5 justify-items-center mx-10">
+<div className="grid grid-cols-1 pb-20 lg:grid-cols-3 gap-7.5 justify-items-center mx-10">
 
   {/* Card 1 */}
   <Link href="https://agingsolutions.com/">
-  <div className="text-white py-10 text-center rounded-lg  h-75 max-w-75 mb-10 lg:mb-0">
+  <div className="py-10 text-center h-75 rounded-lg max-w-75 mb-10 lg:mb-0">
     <Image
       src={agingsolutions}
       alt="aging solutions"
       width={800}
       height={300}
-      className="w-full h-full object-cover mb-3"
+      className="w-full h-full object-cover mb-3 border border-gray-300 shadow-lg scale-100 hover:scale-120"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2.5`}>
       AGING SOLUTIONS INC.
@@ -48,13 +48,13 @@ export default function OurProjects() {
 
   {/* Card 2 */}
   <Link href="https://oceanbeachbrands.com/">
-  <div className="text-white py-10 text-center rounded-lg h-75 max-w-75 mb-10 lg:mb-0">
+  <div className="py-10 text-center rounded-lg h-75 max-w-75 mb-10 lg:mb-0">
     <Image
       src={obb}
       alt="project image"
       width={800}
       height={200}
-      className="w-full h-full object-cover mb-3"
+      className="w-full h-full object-cover mb-3 border shadow-lg scale-100 hover:scale-120"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2.5 `}>
       OCEAN BEACH BRANDS
@@ -68,13 +68,13 @@ export default function OurProjects() {
 
   {/* Card 3 */}
   <Link href="https://sinaklughardt.com/">
-  <div className="text-white py-10 text-center rounded-lg max-w-75 h-75 mb-10 lg:mb-0">
+  <div className="py-10 text-center rounded-lg max-w-75 h-75 mb-10 lg:mb-0">
     <Image
       src={yogawebsite}
       alt="project image"
       width={800}
       height={200}
-      className="w-full h-full object-cover mb-3"
+      className="w-full h-full object-cover mb-3 border border-gray-300 shadow-lg scale-100 hover:scale-120"
     />
     <div className={`${fjalla.className} text-xl font-bold pt-2.5`}>
       IN FLUX YOGA

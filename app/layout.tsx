@@ -18,18 +18,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sunset Cliffs Webdesign",
-  description: "San Diego based Webdesign",
+  title: "Sunset Cliffs Web Design",
+  description: "San Diego Based Webdesign",
 
   openGraph: {
-    title: "Sunset Cliffs Webdesign",
-    description: "San Diego based Webdesign",
+    title: "Sunset Cliffs Web Design",
+    description: "San Diego Based Webdesign",
     images: [
       {
         url: thumbnail.src, // important
         width: 1200,
         height: 630,
-        alt: "Sunset Cliffs Webdesign",
+        alt: "Sunset Cliffs Web Design",
       },
     ],
   },
